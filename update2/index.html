@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Search Tool</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <h1><span>Music</span> Search Tool</h1>
+    <div class="search-bar"> 
+        <div class="radio-buttons">
+            <button id="singer-button" class="singer-button-on" onclick="setSearchToSinger()">
+                Singer
+            </button>
+            <button id="song-button" class="song-button-off" onclick="setSearchToSong()">
+                Song
+            </button>
+
+            <!--
+            <input
+                type="radio"
+                name="singerOrSong"
+                value="singer"
+            >
+            <p class="radio-label">Singer</p>
+            <input
+                type="radio"
+                name="singerOrSong"
+                value="song"
+            >
+            <p class="radio-label">Song</p>
+            -->
+        </div>
+        <input 
+            type="text" 
+            id="searchValue" 
+            name="searchValue" 
+            value="Please enter a singer or a song name" 
+            onfocus="if (this.value=='Please enter a singer or a song name') this.value=''
+                     else if (this.value=='') this.value='Please enter a singer or a song name';"
+            onblur="if (this.value=='Please enter a singer or a song name') this.value=''
+                    else if (this.value=='') this.value='Please enter a singer or a song name';"
+        >
+        <input type="submit" id="searchButton" value="Search" onclick="callParams()">
+    </div>
+    <div id="singer-info">
+        huge cocks 
+    </div>
+    <div id="song-info">
+        massive shlongs
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
