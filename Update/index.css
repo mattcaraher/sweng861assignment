@@ -6,6 +6,7 @@
 /* Title */
 
 h1 {
+    text-align: center;
     color: white;
     padding-left: 15px;
 }
@@ -116,6 +117,109 @@ h1 span {
     width: 90px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+/* Singer Info Display */
+
+#singer-info {
+    display: none;
+    margin-top: 15px;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#artist-name {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(146, 146, 255);
+    width: 702px;
+}
+
+#artist-avatar {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(146, 146, 255);
+    width: 722px;
+    text-align: center;
+}
+
+#avatar {
+    margin-top: 75px;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 150px;
+}
+
+#artist-biography {
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    width: 650px;
+    border-radius: 15px;
+    color:rgb(112, 112, 112);
+}
+
+#artist-followers {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    width: 650px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color:rgb(112, 112, 112);
+}
+
+#artist-monthly-listeners {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    width: 650px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color:rgb(112, 112, 112);
+}
+
+#artist-album-count {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    width: 650px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color:rgb(112, 112, 112);
+    margin-bottom: 25px;
+}
+
+.artist-stats {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 722px;
+    background-color: rgb(146, 146, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Song Info Display */
+
+#song-info {
+    display: none;
+    color: white;
+    flex-direction: column;
 }
 
 
