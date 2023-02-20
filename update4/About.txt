@@ -1,0 +1,4 @@
+Input: Singer or a song, entered through a web app interface
+Output: Information about the input, listed below the search bar
+Languages: HTML, CSS, and JavaScript
+API: last.fm API - https://www.last.fm/api
